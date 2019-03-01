@@ -1,0 +1,7 @@
+C:\repos\Akari\Akari\obj\Debug\Akari.csprojAssemblyReference.cache
+C:\repos\Akari\Akari\obj\Debug\Akari.csproj.CoreCompileInputs.cache
+C:\repos\Akari\Akari\bin\Debug\Akari.exe.config
+C:\repos\Akari\Akari\bin\Debug\Akari.exe
+C:\repos\Akari\Akari\bin\Debug\Akari.pdb
+C:\repos\Akari\Akari\obj\Debug\Akari.exe
+C:\repos\Akari\Akari\obj\Debug\Akari.pdb
