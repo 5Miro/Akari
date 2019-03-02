@@ -27,7 +27,7 @@ namespace Akari
 @"| |              | || |              | || |              | || |              | || |              | |",
 @"| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |",
 @" '----------------'  '----------------'  '----------------'  '----------------'  '----------------' ",
-"v0.1.0-alpha\n\n"
+"v0.1.1-alpha\n\n"
         }; // ASCII Art font is "Blocks"
         public static string text1 = "Programmed by Miro";
         public static string text2 = "All rights reserved to Nikoli Co., Ltd..";
@@ -68,6 +68,12 @@ namespace Akari
 
         public static void DrawGrid()
         {
+            /// Writes columns numbers
+            for (int column = 0; column < instance.CurrentLevel.Columns; column++)
+            {
+                Console.Write(" " + (column + 1));
+            }
+            Console.WriteLine("\n");
             /// Runs through the grid array, drawing each cell
             for (int row = 0; row < instance.CurrentLevel.Rows; row++)
             {
@@ -107,8 +113,9 @@ namespace Akari
                             break;
                     }
                 }
-                Console.Write("|\n");
-            }
+                /// Writes rows numbers
+                Console.Write("|  " + (row + 1) + "\n");
+            }   
         }
 
         public static void DrawIntro()
